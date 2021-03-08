@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/*Asterisk is a wildcard; it selects everything!*/
+/** {
+    outline: 1px solid red;
+}*/
+body {
+    background-color: #82DDB5;
+    background-image: url("img/illustration.gif"), url("img/texture.jpg");
+    background-repeat: no-repeat, repeat-x;
+    background-position: center 280px, top;
+    background-size: 800px, auto;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+#nav {
+    background-color: #6B9;
+    border-bottom: 2px dashed #487;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    word-spacing: 2em;
+}
+#header {
+    text-align: center;
+    margin-top: 40px;
+}
+#logo {
+    max-width: 360px;
+    width: 100%;
+}
+#description, #date {
+    max-width: 220px;
+}
+.register_btn {
+    background-color: #E43;
+    border: 2px dashed #A43;
+    border-radius: 2em;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 15px 30px;
+}
+#what {
+    background-color: #C8F0DCDD;
+    padding-bottom: 25px;
+}
+#what p {
+    font-size: 19px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+#what p ~ p {
+    font-size: 16px;
+}
+h1, h2 {
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+}
+#what h1, #what h2 {
+    color: #FFFFFF;/*find the normal colour!!!!!*/
+}
+#sponsor_logos {
+    margin-left: auto;
+    margin-right: auto;
+}
+#sponsor_logos img {
+    max-width: 240px;
+    padding-left: auto;
+    padding-right: auto;
+    margin: 20px;
+}
