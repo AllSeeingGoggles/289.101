@@ -45,8 +45,9 @@ body {
     padding: 15px 30px;
 }
 #what {
-    background-color: #C8F0DCDD;
+    background-color: #D8F7E9DD;
     padding-bottom: 25px;
+    margin-top: 360px;
 }
 #what p {
     font-size: 19px;
@@ -55,6 +56,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 600px;
+    color: #347788;
 }
 #what p ~ p {
     font-size: 16px;
@@ -70,7 +72,7 @@ h1, h2 {
     padding-top: 25px;
 }
 #what h1, #what h2 {
-    color: #FFFFFF;/*find the normal colour!!!!!*/
+    color: #347788;
 }
 #sponsor_logos {
     margin-left: auto;
@@ -81,4 +83,89 @@ h1, h2 {
     padding-left: auto;
     padding-right: auto;
     margin: 20px;
+}
+#why {
+    color: #347788;
+    background-color: #B6EAD3;
+    padding: 20px;
+}
+#why p {
+    font-size: 16px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+#where {
+    background-color: #DB9BC6;
+    background-image: url("img/map.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #BB4488;
+    height: 610px;
+}
+#where p {
+    font-size: 16px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-weight: bold;
+    max-width: 600px;
+}
+#when {
+    background-color: #439998;
+    background-image: url("img/wires.png");
+    background-position: center;
+    padding: 20px;
+    color: #FFFFFF;
+}
+#when ul, #when h3 {
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+#when ul {
+    max-width: 600px;
+}
+#when h3 {
+    text-align: center;
+    border-top: 2px dashed #FFFFFF;
+    padding: 10px;
+}
+#who {
+    background-color: #F5F5F5;
+    color: #347788;
+    padding: 20px;
+}
+#who p {
+    max-width: 600px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+#who p ~ p {
+    font-size: 16px;
+}
+#footer {
+    background-image: url("img/texture.jpg");
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#footer img {
+    max-height: 52px;
+    max-width: 52px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
