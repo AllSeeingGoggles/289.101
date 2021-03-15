@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8" />
+        
+        <title>Layout 7</title>
+        
+        <style>
+            
+            div {
+                outline: 1px solid black;
+            }
+            #container {
+                display: grid;
+                margin: auto;
+                max-width: 800px;
+            }
+            .smallblue {
+                display: grid;
+                grid-template-columns: 1fr 3fr;
+                background-color: blue;
+                height: 100px;
+                grid-column: 1 / 4;
+            }
+            #blue {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 2fr 2fr 2fr;
+                background-color: blue;
+                grid-column: 1 / 4;
+                height: 800px;
+            }
+            #red {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 2fr 3fr;
+                background-color: red;
+                height: 400px;
+                grid-column: 1 / 4;
+            }
+            #bigred {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 50% 50%;
+                background-color: red;
+                height: 600px;
+                grid-column: 1 / 4;
+            }
+            .green {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 2fr;
+                background-color: lime;
+                height: 600px;
+                grid-column: 1/4;
+            }
+            .yellow {
+                background-color: yellow;
+                margin: 20px;
+                grid-column-end: span 1;/*keeps them one square*/
+            }
+            .banneryellow {
+                background-color: yellow;
+                margin: 20px;
+                grid-column: 1 / span 5;
+            }
+            
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <div id="container">
+            
+            <div class="smallblue">
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+            
+            </div>
+            
+            <div class="green"></div>
+            
+            <div id="red">
+                
+                <div class="banneryellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+            
+            </div>
+            
+            <div id="blue">
+                
+                <div class="banneryellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+            
+            </div>
+            
+            <div class="green">
+                
+                <div class="banneryellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+                
+                <div class="yellow"></div>
+            
+            </div>
+            
+            <div id="bigred"></div>
+            
+            <div class="smallblue"></div>
+            
+        </div>
+        
+    </body>
+    
+</html>
