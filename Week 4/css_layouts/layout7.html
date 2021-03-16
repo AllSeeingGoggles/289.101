@@ -43,8 +43,8 @@
             }
             #bigred {
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-                grid-template-rows: 50% 50%;
+                grid-template-columns: 3fr 2fr;
+                grid-template-rows: 1fr 2fr 1fr;
                 background-color: red;
                 height: 600px;
                 grid-column: 1 / 4;
@@ -65,7 +65,13 @@
             .banneryellow {
                 background-color: yellow;
                 margin: 20px;
-                grid-column: 1 / span 5;
+                grid-column: 1 / span 4;
+            }
+            .bigyellow {
+                background-color: yellow;
+                margin: 20px;
+                grid-column-end: span 1;/*keeps them one square*/
+                grid-row-end: span 2;
             }
             
         </style>
@@ -140,7 +146,15 @@
             
             </div>
             
-            <div id="bigred"></div>
+            <div id="bigred">
+                
+                <div class="banneryellow"></div>
+                
+                <div class="bigyellow"></div>
+                
+                <div class="yellow"></div>
+            
+            </div>
             
             <div class="smallblue"></div>
             
