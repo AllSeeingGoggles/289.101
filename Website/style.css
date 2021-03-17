@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 #container {
     background-color: #CFCFCF;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
 }
+/*@font-face {
+    font-family: Pangolin,
+    src: url(fonts/Pangolin-Regular.ttf);
+}*/
 h1 {
     text-align: center;
     font-size: 4em;
+    font-family: "Pangolin", cursive;
 }
 p {
     margin-left: auto;
