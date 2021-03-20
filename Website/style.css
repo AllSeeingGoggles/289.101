@@ -9,6 +9,7 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
+    border-radius: 2em;
 }
 /*@font-face {
     font-family: Pangolin,
@@ -41,27 +42,38 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 .button {
-    background-color: #B254DD;
+    /*background-color: #B254DD;*/
+    /*display: block;*/
+    /*max-width: 85px;*/
+    background-image: url("img/menubutton.png");
+    background-repeat: no-repeat;
+    background-position: center;
     color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Pangolin", cursive;
     font-weight: none;
     text-decoration: none;
-    padding: 0.8em;
+    /*padding: 0.8em;*/
+    padding: 1.8em;
     margin: 0.8em;
-    border-radius: 2em;
+    /*border-radius: 2em;*/
     line-height: 3em;
 }
 .button:hover {
-    font-weight: bold;
-    background-color: #8E3EB1;
+    /*font-weight: bold;*/
+    /*background-color: #8E3EB1;*/
+    background-image: url("img/highlightbutton.png");
 }
 .buttoncurrent {
-    background-color: #8E3EB1;
+    /*background-color: #8E3EB1;*/
+    background-image: url("img/highlightbutton.png");
+    background-repeat: no-repeat;
+    background-position: center;
     color: #FFFFFF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: "Pangolin", cursive;
+    /*font-weight: bold;*/
     text-decoration: none;
-    padding: 0.8em;
+    /*padding: 0.8em;*/
+    padding: 1.8em;
     margin: 0.8em;
-    border-radius: 2em;
+    /*border-radius: 2em;*/
 }
