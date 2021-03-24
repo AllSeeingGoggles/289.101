@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-/*body {
-    background-color: #82DDB5;
-    background-image: url("img/paper.jpg");
+body {
+    background-color: #FFFFFF;
+    background-image: url("img/colourspotsbig.png");
     background-repeat: repeat;
-}*/
+}
 #container {
     background-color: #CFCFCF;
     margin-left: auto;
@@ -76,4 +76,15 @@ a {
     padding: 1.8em;
     margin: 0.8em;
     /*border-radius: 2em;*/
+}
+.storypage {
+    background-color: #B254DD;
+    color: #FFFFFF;
+    font-size: 2em;
+    border-radius: 2em;
+    padding: 0.8em;
+    margin-top: 12em;
+}
+.storypage:hover {
+    font-weight: bold;
 }
