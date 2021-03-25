@@ -33,6 +33,12 @@ p {
 a {
     font-weight: none;
 }
+video {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    max-height: 400px;
+}
 .pagelink {
     margin-left: auto;
     margin-right: auto;
