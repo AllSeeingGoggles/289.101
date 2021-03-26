@@ -8,6 +8,9 @@ body {
     margin: 0;
     font-family: "Lato", sans-serif;
 }
+h1 {
+    padding-top: 1em;
+}
 .header {
     background-color: #2D2F3B;
     color: white;
@@ -51,12 +54,14 @@ body {
 }
 .whitebackground {
     background-color: #F2F2F2;
-    max-width: 950px;
-    margin-left: auto;
-    margin-right: auto;
     color: #676C89;
     font-family: "Lato-Light", sans-serif;
     font-size: 1.1em;
+}
+.keepin {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .services {
     display: grid;
@@ -73,6 +78,64 @@ body {
 }
 .smalltext {
     font-size: 0.8em;
+}
+.bluebackground {
+    background-color: #2D2F3B;
+    color: #666D8A;
+    font-family: "Lato-Light", sans-serif;
+    font-size: 1.1em;
+}
+.portbutton {
+    font-size: 0.7em;
+    color: #666D8A;
+    text-decoration: none;
+    margin-right: 0.8em;
+    border: 1px solid #666D8A;
+    border-radius: 0.8em;
+    padding: 0.4em;
+}
+.activeportbutton {
+    font-size: 0.7em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 0.8em;
+    border: 1px solid #FFFFFF;
+    border-radius: 0.8em;
+    padding: 0.4em;
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.portfolio img {
+    margin: 1em;
+}
+.aboutus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.aboutus p {
+    font-size: 0.8em;
+}
+.redbackground {
+    background-color: #F16C65;
+    color: #F1D8DB;
+    font-family: "Lato-Light", sans-serif;
+    font-size: 1.1em;
+}
+.redbackground input {
+    background-color: #D75650;
+    color: #F38C90;
+    border: 0px;
+    border-radius: 0.5em;
+    padding: 0.8em;
+    margin-top: 2em;
+}
+.redbackground ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 @media screen and (max-width: 480px) {
     body {
