@@ -58,7 +58,7 @@ h1 {
     font-family: "Lato-Light", sans-serif;
     font-size: 1.1em;
 }
-.keepin {
+.keepin {/*Different from the Xbackground divs so that the background colour goes well beyond the text-and-image container*/
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
@@ -124,18 +124,33 @@ h1 {
     font-family: "Lato-Light", sans-serif;
     font-size: 1.1em;
 }
-.redbackground input {
+.redbackground input, .redbackground textarea {
     background-color: #D75650;
-    color: #F38C90;
+    color: #FFD2D3;
     border: 0px;
     border-radius: 0.5em;
-    padding: 0.8em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
     margin-top: 2em;
+    width: 100%;
+    font-family: "Lato-Light", sans-serif;
+    font-size: 0.8em;
 }
 .redbackground ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+.quote {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.quotecontact {
+    margin-left: 0.8em;
+}
+.quotecontact p, .quotecontact li {
+    font-size: 0.8em;
+    margin-bottom: 0.8em;
 }
 @media screen and (max-width: 480px) {
     body {
