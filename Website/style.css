@@ -112,7 +112,9 @@ input, textarea {
     border-radius: 2em;
     padding: 0.8em;
     margin-top: 12em;
+    text-decoration: none;
 }
 .storypage:hover {
     font-weight: bold;
+    background-color: #B254DD;/*CHANGE TO DARKER PURPLE*/
 }
