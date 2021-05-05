@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8" />
+        
+        <title>Layout 2</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        
+        <style>
+            
+            * { outline: white 8px solid }
+            
+            .blue {
+                background-color: #3FB4FF;
+                height: 100px;
+            }
+            
+            .green {
+                background-color: #A6D800;
+            }
+            
+            .grey {
+                background-color: #C4C4C4;
+            }
+            
+            .orange {
+                background-color: orange;
+                height: 100px;
+            }
+            
+            .pink {
+                background-color: #EC8FEF;
+            }
+            
+            .magenta {
+                background-color: #AF3552;
+            }
+            
+            /* xs devices (mobile) */
+            /*body {background-color: red}*/
+            .green {height: 100px;}
+            .grey {
+                height: 200px;
+                width: 50%;
+            }
+            .orange {height: 600px;}
+            .magenta {height: 300px;}
+            
+            /* sm devices */
+            @media (min-width: 576px) {
+                /*body {background-color: orange}*/
+            }
+            
+            /* md devices (tablet) */
+            @media (min-width: 768px) {
+                /*body {background-color: yellow}*/
+                .green {height: 110px;}
+                .magenta {height: 600px;}
+            }
+            
+            /* lg devices (desktop) */
+            @media (min-width: 992px) {
+                /*body {background-color: green}*/
+                .green {height: 900px;}
+                .grey {height: 150px;}
+                .orange {height: 900px;}
+                .magenta {height: 900px;}
+            }
+            
+            /* x; devices */
+            @media (min-width: 1200px) {
+                /*body {background-color: blue}*/
+            }
+            
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <div class="container">
+        
+            <div class="row">
+
+                <div class="col-12 blue"></div>
+
+            </div>
+            
+            <div class="row">
+                
+                <div class="col-md-12 col-lg-3 green"></div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-6 orange">
+                    
+                    <div class="row">
+                
+                        <div class="col-sm-6 col-lg-4 grey"></div>
+                
+                        <div class="d-none d-lg-block col-8 pink"></div>
+                
+                        <div class="col-sm-6 col-lg-4 grey"></div>
+                
+                        <div class="d-none d-lg-block col-8 pink"></div>
+                
+                        <div class="col-sm-6 col-lg-4 grey"></div>
+                
+                        <div class="d-none d-lg-block col-8 pink"></div>
+                
+                        <div class="col-sm-6 col-lg-4 grey"></div>
+                
+                        <div class="d-none d-lg-block col-8 pink"></div>
+                
+                        <div class="col-sm-6 col-lg-4 grey"></div>
+                
+                        <div class="d-none d-lg-block col-8 pink"></div>
+                
+                        <div class="col-sm-6 col-lg-4 grey"></div>
+                
+                        <div class="d-none d-lg-block col-8 pink"></div>
+                    
+                    </div>
+                    
+                </div>
+                
+                <div class="col-sm-12 col-md-6 col-lg-3 magenta"></div>
+                
+            </div>
+            
+        </div>
+        
+    </body>
+    
+</html>
