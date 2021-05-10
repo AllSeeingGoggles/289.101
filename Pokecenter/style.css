@@ -49,6 +49,13 @@ h1, h3 {
     margin-top: 10px;
     background-color: #878B10;
 }
+.mainpagelink, .mainpagelink:hover {
+    text-decoration: none;
+    color: #000000;
+}
+a {
+    color: #0362FC;
+}
 /* sm devices */
 @media (min-width: 576px) {
 }

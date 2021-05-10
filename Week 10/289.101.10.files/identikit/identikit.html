@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Identikit</title>
+
+    <style>
+        #controls {
+            text-align: center;
+            width: 600px;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        #controls button {
+            font-family: sans-serif;
+            border: 1px solid black;
+            display: inline-block;
+            cursor: pointer;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        #controls button:hover {
+            background-color: yellow;
+        }
+
+        #face {
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            background-image: url(face.svg);
+            background-size: contain;
+            position: relative;
+        }
+
+        #eye_left, #eye_right {
+            position: absolute;
+            width: 50px;
+        }
+
+        #mouth {
+            position: absolute;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="controls">
+        <button id="eyes_up_btn">move eyes up</button>
+        <button>move eyes down</button>
+        <button>move eyes closer together</button>
+        <button>move eyes further apart</button>
+        <button>hollow eyes</button>
+        <button>solid eyes</button>
+        <button>no right eye</button>
+        <button>move mouth up</button>
+        <button>move mouth down</button>
+        <button>happy mouth</button>
+        <button>sad mouth</button>
+        <button>reset face</button>
+    </div>
+
+    <div id="face">
+        <img id="eye_left" src="eye_solid.svg" />
+        <img id="eye_right" src="eye_solid.svg" />
+        <img id="mouth" src="mouth_happy.svg" />
+    </div>
+
+    <script>
+        // coordinate variables
+        var eye_left_x = 100;
+        var eye_left_y = 100;
+        var eye_right_x = 250;
+        var eye_right_y = 100;
+
+        // set initial positions
+        document.getElementById('eye_left').style.left = eye_left_x + 'px';
+        document.getElementById('eye_left').style.top = eye_left_y + 'px';
+        document.getElementById('eye_right').style.left = eye_right_x + 'px';
+        document.getElementById('eye_right').style.top = eye_right_y + 'px';
+
+        // move eyes up event listener
+        document.getElementById('eyes_up_btn').addEventListener('click', () => {
+            eye_left_y -= 10;
+            document.getElementById('eye_left').style.top = eye_left_y + 'px';
+            eye_right_y -= 10;
+            document.getElementById('eye_right').style.top = eye_right_y + 'px';
+        });
+    </script>
+
+</body>
+</html>
