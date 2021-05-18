@@ -1,8 +1,9 @@
 body {
-    background-color: #555555;
+    background-color: #f4eec4;
 }
 .banner {
-    background-color: #9AAB50;
+    background-color: #fb5e5e;
+    border: 4px #000000 solid;
     margin-left: auto;
     margin-right: auto;
     max-width: 40vw;
@@ -22,18 +23,20 @@ body {
     max-width: 800px;
 }
 .about {
-    background-color: #94DB88;
+    /*background-color: #d59595;*/
+    border: 4px #fb5e5e solid;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
     border-radius: 10px;
     padding: 20px;
+    margin-bottom: 10px;
 }
 h1, h3 {
     text-align: center;
 }
 .pageimage {
-    background-color: #B5B2F5;
+    background-color: #00B2F5;
     max-width: 185px;
     height: 150px;
     margin-left: auto;
@@ -47,7 +50,7 @@ h1, h3 {
 }
 .pages {
     margin-top: 10px;
-    background-color: #878B10;
+    /*background-color: #00FF00;*/
 }
 .mainpagelink, .mainpagelink:hover {
     text-decoration: none;
@@ -56,8 +59,35 @@ h1, h3 {
 a {
     color: #0362FC;
 }
+.shop {
+    /*background-color: #90B250;*/
+    border: 1px solid;
+    padding: 2px;
+}
+/*#accordionExample {//doesn't work
+    background-color: #90B250;
+    padding: 30px;
+    color: #FF0000;
+}*/
+.card-body, #headingOne, #headingTwo, #headingThree, #headingFour, #headingFive, #headingSix, #headingSeven, #headingEight {
+    background-color: #a6ca9f;
+    padding: 0px;
+}
+.locationMap {
+    width: 100%;
+}
+.btn-link, .btn-link:hover {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
 /* sm devices */
 @media (min-width: 576px) {
+    .card-body {
+        padding: 20px;
+    }
 }
 
 /* md devices */
