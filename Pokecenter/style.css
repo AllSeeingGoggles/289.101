@@ -71,6 +71,9 @@ a {
 }*/
 .card-body, #headingOne, #headingTwo, #headingThree, #headingFour, #headingFive, #headingSix, #headingSeven, #headingEight {
     background-color: #a6ca9f;
+    /*padding: 20px;*/
+}
+.centerLocations {
     padding: 0px;
 }
 .locationMap {
@@ -83,11 +86,11 @@ a {
     text-align: center;
     width: 100%;
 }
+.pchelpimg {
+    width: 100%;
+}
 /* sm devices */
 @media (min-width: 576px) {
-    .card-body {
-        padding: 20px;
-    }
 }
 
 /* md devices */
@@ -97,6 +100,9 @@ a {
         height: 300px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .centerLocations {
+        padding: 20px;
     }
 }
 
