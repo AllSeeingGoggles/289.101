@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
 body {
     background-color: #f4eec4;
+    background-image: url("img/pokemon_silhouettes.png");
+    background-repeat: repeat;
+    background-size: 20%;
 }
 .banner {
     background-color: #fb5e5e;
@@ -8,6 +12,7 @@ body {
     margin-right: auto;
     max-width: 40vw;
     border-radius: 50%;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .title-text {
     margin-left: auto;
@@ -24,6 +29,7 @@ body {
 }
 .about {
     /*background-color: #d59595;*/
+    background-color: rgb(244, 238, 196, 0.6);
     border: 4px #fb5e5e solid;
     margin-left: auto;
     margin-right: auto;
@@ -36,11 +42,12 @@ h1, h3 {
     text-align: center;
 }
 .pageimage {
-    background-color: #00B2F5;
+    /*background-color: #00B2F5;*/
     max-width: 185px;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .pageimage img {
     max-width: 100%;
@@ -70,7 +77,8 @@ a {
     color: #FF0000;
 }*/
 .card-body, #headingOne, #headingTwo, #headingThree, #headingFour, #headingFive, #headingSix, #headingSeven, #headingEight {
-    background-color: #a6ca9f;
+    background-color: #E0C47A;
+    border: 1px solid #B19446;
     /*padding: 20px;*/
 }
 .centerLocations {
