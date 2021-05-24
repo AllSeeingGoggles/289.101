@@ -64,7 +64,10 @@ h1, h3 {
     color: #000000;
 }
 a {
-    color: #0362FC;
+    color: #fb5e5e;
+}
+a:hover, a:active {
+  color: #872727;
 }
 .shop {
     /*background-color: #90B250;*/
